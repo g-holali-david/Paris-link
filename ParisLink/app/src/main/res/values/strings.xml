@@ -89,10 +89,6 @@
 
     <string name="confirmation_annulation">Confirmation d\'annulation</string>
     <string name="message_annulation">Êtes-vous sûr de vouloir annuler l\'offre de covoiturage ?</string>
-
-
-
-    <string name="my_maps_api_key">AIzaSyCncQmQnooZumgBU2f8IyiN3Mnr-MfSRWQ</string>
     <string name="offres_sur_la_carte">Visualiser les offres sur la carte</string>
 
 </resources>
