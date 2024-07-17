@@ -1,0 +1,98 @@
+<resources>
+    <string name="app_name">Paris Link</string>
+    <string name="title_activity_connexion">ConnexionActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="defaultText">Bonjour Conducteur</string>
+    <string name="title_activity_inscription">InscriptionActivity</string>
+
+    <!-- Connexion strings-->
+    <string name="toastValidationConnexion">Login ou mot de pas non saisis</string>
+    <string name="toastConnexion">Vous êtes connecté</string>
+    <string name="toastIncorrectIdentification">Identifiants incorrects</string>
+    <string name="toastConnexionToInscription">Vous aller sur la page d\'inscription</string>
+    <string name="connexion">Connexion</string>
+    <string name="connexionText">Connexion</string>
+    <string name="loginText">Entrez votre login et mot de passe</string>
+    <string name="login">Login</string>
+    <string name="pwd">Mot de passe</string>
+    <string name="connexionBtn">Se connecter</string>
+    <string name="imgStr">image</string>
+    <string name="inscription">Créer un compte</string>
+    <string name="invalideConnexion">Mot de passe invalide</string>
+    <string name="unknowUser">Vous êtes inconnu de système</string>
+
+    <!-- Inscription strings-->
+
+    <string name="succes">Utilisateur ajouté avec succès!</string>
+    <string name="redirectString">Merci de vous connecter</string>
+    <string name="noMatchPwd">Les mots de passe ne correspondent pas</string>
+    <string name="valider">Valider</string>
+    <string name="toastAnnuler">Vous avez annulé votre inscription</string>
+    <string name="annuler">Annuler</string>
+    <string name="inscriptionText">Création d\'un compte</string>
+    <string name="inputNom">Nom</string>
+    <string name="inputPrenom">Prénom</string>
+    <string name="inputPhone">Téléphone</string>
+    <string name="inputEmail">Courriel</string>
+    <string name="inputLogin">Login</string>
+    <string name="inputPwd">Mot de passe</string>
+    <string name="inputPwdBis">Confirmez votre mot de passe</string>
+    <string name="title_activity_covoiturage">CovoiturageActivity</string>
+
+    <!-- DB Insersion strings -->
+    <string name="succesInsertion">Données insérées avec succès</string>
+    <string name="failedInsertion">Erreur lors de l\'insertion des données</string>
+
+
+    <!-- Covoiturage -->
+    <string name="cov">Covoiturage</string>
+    <string name="menu">Menu</string>
+    <string name="champsValidation">Un ou plusieurs champs ne sont pas saisis</string>
+    <string name="deconnexion">Déconnexion</string>
+    <string name="conducteur">Je suis conducteur et je souhaite : </string>
+    <string name="proposition">Proposer une offre de covoiturage</string>
+    <string name="formTitle">Formulaire d\'offre de covoiturage</string>
+    <string name="modele">Modèle : </string>
+    <string name="couleur">Couleur: </string>
+    <string name="immatriculation">Immatriculation : </string>
+    <string name="lieuRDV">Lieu du RDV : </string>
+    <string name="heureRDV">Heure du RDV :</string>
+    <string name="destination">Destination : </string>
+    <string name="nbPlace">Nombre de places proposées : </string>
+    <string name="title_activity_display_db">DisplayDbActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="defaultHour">10:30</string>
+
+    <!-- Validation offre strings-->
+    <string name="offreValidation">Validation de l\'offre</string>
+    <string name="offreEnregistre">Votre offre a été enrégistrée.</string>
+    <string name="confirmationInfo">Vous aller recevoir un courrier électronique de confirmation.</string>
+    <string name="ok">Ok</string>
+
+
+    <string name="home">Home</string>
+    <string name="payement">Payement</string>
+    <string name="notif">Notification</string>
+    <string name="compte">Compte</string>
+    <string name="connect">Se connecter</string>
+    <string name="title_activity_maps">MapsActivity</string>
+
+    <string name="confirmation_annulation">Confirmation d\'annulation</string>
+    <string name="message_annulation">Êtes-vous sûr de vouloir annuler l\'offre de covoiturage ?</string>
+
+
+
+    <string name="my_maps_api_key">AIzaSyCncQmQnooZumgBU2f8IyiN3Mnr-MfSRWQ</string>
+    <string name="offres_sur_la_carte">Visualiser les offres sur la carte</string>
+
+</resources>

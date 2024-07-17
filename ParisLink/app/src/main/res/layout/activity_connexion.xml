@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".ConnexionActivity">
+
+    <ImageView
+        android:id="@+id/connexionImage"
+        android:layout_width="300dp"
+        android:layout_height="250dp"
+        android:contentDescription="@string/imgStr"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/login"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="-10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="@string/connexionText"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/connexionTextZise"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/Coral" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="400dp"
+        android:layout_height="225dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+        android:background="@drawable/connexion_shape">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:text="@string/loginText"
+            android:textColor="@color/white"
+            android:textSize="18sp"/>
+        <EditText
+            android:id="@+id/loginInput"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/input_shape"
+            android:inputType="text"
+            android:hint="@string/login"
+            android:drawableStart="@drawable/baseline_login_24"
+            android:drawablePadding="10dp"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/white"
+            android:padding="10dp"
+            android:autofillHints=""
+            tools:ignore="LabelFor"/>
+
+        <EditText
+            android:id="@+id/pwdInput"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/input_shape"
+            android:inputType="textPassword"
+            android:drawableStart="@drawable/baseline_lock_24"
+            android:layout_gravity="center"
+            android:drawablePadding="10dp"
+            android:padding="10dp"
+            android:hint="@string/pwd"
+            android:backgroundTint="@color/white"
+            android:autofillHints=""
+            tools:ignore="LabelFor" />
+
+        <Button
+            android:id="@+id/connexionBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/connexionBtn"
+            android:background="@drawable/input_shape"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/white"
+            android:textSize="20sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="vertical"
+        android:background="@color/Lavender">
+
+        <Button
+            android:id="@+id/inscriptionBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"
+
+            android:background="@drawable/create_count_shape"
+            android:layout_gravity="center"
+            android:text="@string/inscription"
+            />
+    </LinearLayout>
+
+</LinearLayout>

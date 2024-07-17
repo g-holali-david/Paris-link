@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CovoiturageActivity"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_marginTop="-30dp"
+        android:layout_width="250dp"
+        android:layout_gravity="center"
+        android:layout_height="200dp"
+        android:src="@drawable/cov2"
+        android:importantForAccessibility="no" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-20dp"
+        android:textStyle="bold"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:text="@string/formTitle"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/covTextSize"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/colorPrimary" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="15dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="@string/inputNom"
+               android:textSize="@dimen/covoiturageInputSize"/>
+            <TextView
+                android:id="@+id/covNom"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/covoiturageInputSize"
+                android:textStyle="bold"/>
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/inputPrenom"
+                android:textSize="@dimen/covoiturageInputSize"/>
+
+            <TextView
+                android:id="@+id/covPrenom"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/covoiturageInputSize"
+                android:textStyle="bold"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/modele"
+                android:textSize="@dimen/covoiturageInputSize"/>
+
+            <EditText
+                android:id="@+id/modele"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:textSize="@dimen/covoiturageInputSize"
+                android:importantForAutofill="no" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/couleur"
+                android:textSize="@dimen/covoiturageInputSize"/>
+            <EditText
+                android:id="@+id/couleur"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:textSize="@dimen/covoiturageInputSize"/>
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/immatriculation"
+                android:textSize="@dimen/covoiturageInputSize"/>
+
+            <EditText
+                android:id="@+id/immatriculation"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:textSize="@dimen/covoiturageInputSize"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/lieuRDV"
+                android:textSize="@dimen/covoiturageInputSize"/>
+            <EditText
+                android:id="@+id/lieuRDV"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:textSize="@dimen/covoiturageInputSize"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/destination"
+                android:textSize="@dimen/covoiturageInputSize"/>
+
+            <EditText
+                android:id="@+id/destination"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:textSize="@dimen/covoiturageInputSize"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/heureRDV"
+                android:textSize="@dimen/covoiturageInputSize"/>
+            <EditText
+                android:id="@+id/heureRDV"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:inputType="time"
+                android:textSize="@dimen/covoiturageInputSize"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="130dp"
+                android:layout_height="50dp"
+                android:text="@string/nbPlace"
+                android:textSize="@dimen/covoiturageInputSize"/>
+            <EditText
+                android:id="@+id/nbPlacePropose"
+                android:layout_width="300dp"
+                android:layout_marginTop="15dp"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:textSize="@dimen/covoiturageInputSize"/>
+        </TableRow>
+
+        <Button
+            android:id="@+id/covoiturageFormBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/valider"
+            android:background="@drawable/covoiturage_btn_shape"
+            android:textSize="20sp"
+            android:layout_gravity="center"/>
+    </TableLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <View
+            android:layout_width="4dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:background="@color/colorPrimary"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+        />
+
+        <TextView
+            android:id="@+id/annulerOffre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:text="@string/annuler"
+            android:textColor="@color/Brown"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            />
+
+        <View
+            android:layout_width="4dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:background="@color/colorPrimary"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            />
+
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

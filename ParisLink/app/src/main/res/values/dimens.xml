@@ -1,0 +1,41 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="divider_height">2dp</dimen>
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="nav_header_height">176dp</dimen>
+
+    <!-- Définition de la taille du texte -->
+    <dimen name="inputSize">20sp</dimen>
+    <dimen name="connexionTextZise">30sp</dimen>
+    <dimen name="covoiturageInputSize">16sp</dimen>
+    <dimen name="covTextSize">25sp</dimen>
+    <dimen name="connexionTitleZise">25sp</dimen>
+
+    <dimen name="text_size_medium">18sp</dimen>
+    <dimen name="text_size_large">22sp</dimen>
+
+
+    <!-- Définition de la hauteur et de la largeur des vues -->
+    <dimen name="view_width_small">100dp</dimen>
+    <dimen name="view_width_medium">200dp</dimen>
+    <dimen name="view_width_large">300dp</dimen>
+
+    <dimen name="view_height_small">100dp</dimen>
+    <dimen name="view_height_medium">200dp</dimen>
+    <dimen name="view_height_large">300dp</dimen>
+
+    <!-- Définition des marges -->
+    <dimen name="margin_small">8dp</dimen>
+    <dimen name="margin_medium">16dp</dimen>
+    <dimen name="margin_large">24dp</dimen>
+
+    <!-- Définition des espacements -->
+    <dimen name="padding_small">8dp</dimen>
+    <dimen name="padding_medium">16dp</dimen>
+    <dimen name="padding_large">24dp</dimen>
+
+
+</resources>
